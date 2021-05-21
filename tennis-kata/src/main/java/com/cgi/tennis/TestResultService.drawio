@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T09:52:20.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="armZEBYcpDlwXoZiDP9Y" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-21T10:07:14.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="BpzNTAxmlA9IvCIcQo7U" version="14.7.0" type="github">
   <diagram id="3oNs5fxuG2grTaYNeIHR" name="Page-1">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
             <mxPoint x="558.78" y="271.02" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_gLoM9S2t7sjp2gbZ2T--41" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.083;entryY=0.738;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="_gLoM9S2t7sjp2gbZ2T--22" edge="1" source="_gLoM9S2t7sjp2gbZ2T--6">
+        <mxCell id="_gLoM9S2t7sjp2gbZ2T--41" value="return data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.083;entryY=0.738;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="_gLoM9S2t7sjp2gbZ2T--22" edge="1" source="_gLoM9S2t7sjp2gbZ2T--6">
           <mxGeometry x="-0.011" relative="1" as="geometry">
             <mxPoint x="740" y="190" as="sourcePoint" />
             <mxPoint x="384" y="190" as="targetPoint" />
@@ -76,9 +76,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_gLoM9S2t7sjp2gbZ2T--43" value="Rückgabe &lt;br&gt;Registration &lt;br&gt;Token &lt;br&gt;aus Datenbank" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="820" y="110" width="100" height="60" as="geometry" />
+          <mxGeometry x="780" y="190" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VYqTh9acs5qkJP0rl9bG-1" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" source="_gLoM9S2t7sjp2gbZ2T--5" target="_gLoM9S2t7sjp2gbZ2T--4" edge="1">
+        <mxCell id="VYqTh9acs5qkJP0rl9bG-1" value="return result API Call" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" source="_gLoM9S2t7sjp2gbZ2T--5" target="_gLoM9S2t7sjp2gbZ2T--4" edge="1">
           <mxGeometry x="-0.011" relative="1" as="geometry">
             <mxPoint x="714" y="330" as="sourcePoint" />
             <mxPoint x="350.00000000000017" y="330" as="targetPoint" />
@@ -100,11 +100,14 @@
         <mxCell id="QTBX9iI1UTGc7h64jRrQ-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="QTBX9iI1UTGc7h64jRrQ-1">
           <mxGeometry x="45" y="138" width="10" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="QTBX9iI1UTGc7h64jRrQ-4" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+        <mxCell id="QTBX9iI1UTGc7h64jRrQ-4" value="return Model data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="230" as="sourcePoint" />
             <mxPoint x="553" y="230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QTBX9iI1UTGc7h64jRrQ-5" value="FakeRequestService / &lt;br&gt;TestResultServerService: &lt;br&gt;GET Request zum&lt;br&gt;&amp;nbsp; Test Server und &lt;br&gt;Rückgabe Result" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="240" width="150" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
